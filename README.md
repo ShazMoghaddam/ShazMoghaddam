@@ -1,108 +1,113 @@
-Hi, I’m Shaz Moghaddam 👋
-Data Analyst | Junior Data Scientist | Python Developer
+# Shaz Moghaddam
 
-I’m a London-based Python Programmer, Data Analyst, and Junior Data Scientist, and a recent graduate of the Imperial College London Data Science Bootcamp. I have a strong interest in data analysis, Python development, and applied machine learning, with a focus on turning raw data into clear, practical insights.
+<p align="center">
+  <strong>Data Analyst | Junior Data Scientist | Python Developer</strong><br/>
+  London, UK
+</p>
 
-I enjoy building well-structured, well-documented projects that demonstrate real-world problem solving—whether through exploratory data analysis, visualisation, or small Python applications. I’m particularly interested in uncovering patterns in data and communicating findings in a clear and meaningful way.
+<p align="center">
+  <a href="https://github.com/ShazMoghaddam"><img src="https://img.shields.io/badge/GitHub-ShazMoghaddam-black?logo=github"/></a>
+  <a href="https://www.linkedin.com/in/shazmoghaddam/"><img src="https://img.shields.io/badge/LinkedIn-Shaz%20Moghaddam-blue?logo=linkedin"/></a>
+  <img src="https://img.shields.io/badge/Python-Intermediate-blue?logo=python"/>
+  <img src="https://img.shields.io/badge/Data%20Science-Junior-green"/>
+</p>
 
-I’m currently seeking junior roles, internships, or entry-level opportunities where I can continue learning, contribute to a team, and grow as a data professional.
+---
 
-Alongside my technical work, I have a strong passion for photography, architecture, and design, which influences my attention to detail and appreciation for clean, purposeful solutions. Outside of work, I enjoy spending time with my family and continuously developing my technical and creative skills.
+## 👋 About Me
 
-🎓 Education
+I’m a London-based **Python Programmer, Data Analyst, and Junior Data Scientist**, and a recent graduate of the **Imperial College London Data Science Bootcamp**. I focus on turning raw data into **clear, practical insights** through analysis, visualisation, and well-structured Python solutions.
 
-Imperial College London
-Data Science Bootcamp
+I enjoy building **clean, well-documented projects** that demonstrate real-world problem solving—particularly exploratory data analysis, pattern discovery, and applied machine learning. I’m currently seeking **junior roles, internships, or entry-level opportunities** where I can learn, contribute, and grow within a collaborative team.
 
-Python programming
+Alongside my technical work, I have a strong passion for **photography, architecture, and design**, which shapes my attention to detail and preference for clean, purposeful solutions.
 
-Data analysis & visualisation
+---
 
-Statistics & exploratory data analysis
+## 🎓 Education
 
-Machine learning fundamentals
+### Imperial College London — *Data Science Bootcamp*
 
-Practical, project-based learning
+* Python programming
+* Data analysis & visualisation
+* Statistics & exploratory data analysis
+* Machine learning fundamentals
+* Practical, project-based learning
 
-Udemy
-The Complete Python Bootcamp: Zero to Hero
-September 2023 – March 2024
+### Udemy — *The Complete Python Bootcamp: Zero to Hero*
 
-Core Python programming fundamentals
+*September 2023 – March 2024*
 
-Data structures, functions, and OOP
+* Core Python fundamentals
+* Data structures, functions, and OOP
+* Practical exercises and mini-projects
 
-Practical exercises and mini-projects
+### Udemy — *100 Days of Code: The Complete Python Pro Bootcamp*
 
-Udemy
-100 Days of Code – The Complete Python Pro Bootcamp
-October 2022 – July 2023
+*October 2022 – July 2023*
 
-Daily hands-on Python challenges
+* Daily hands-on Python challenges
+* Automation, scripting, and problem solving
+* APIs, web scraping, and application logic
 
-Automation, scripting, and problem solving
+---
 
-Exposure to APIs, web scraping, and application logic
-🧠 Technical Skills
+## 🧠 Technical Skills
 
-Languages
+### Languages
 
-Python
+| Python | SQL |
+| ------ | --- |
 
-SQL
+### Libraries & Frameworks
 
-Libraries & Frameworks
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* scikit-learn
+* NLP tools (spaCy, text processing)
 
-Pandas, NumPy
+### Tools & Platforms
 
-Matplotlib, Seaborn
+* Git & GitHub
+* Jupyter Notebooks
+* PyCharm
+* macOS development environment
 
-scikit-learn
+---
 
-NLP tools (spaCy, text processing)
+## 📂 Projects
 
-Tools & Platforms
+> A selection of projects demonstrating analysis, problem solving, and clean Python development.
 
-Git & GitHub
+* **Data Analysis Projects** — EDA, data cleaning, and visual storytelling
+* **Market & Trend Analysis** — Real-world datasets, insights, and pattern discovery
+* **Python Applications** — Small, focused tools demonstrating clean code
+* **NLP & AI Experiments** — Early-stage text analysis and chatbot development
 
-Jupyter Notebooks
+➡️ Explore the repositories below for full code, notebooks, and explanations.
 
-PyCharm
+---
 
-macOS development environment
+## 📈 GitHub Activity
 
-📂 Projects
+🔗 **GitHub:** [https://github.com/ShazMoghaddam](https://github.com/ShazMoghaddam)
 
-Here are some of the projects I’ve worked on and continue to develop:
+---
 
-Data Analysis Projects – Exploratory data analysis, data cleaning, and visual storytelling
+## 🌐 Connect With Me
 
-Market & Trend Analysis – Working with real-world datasets to identify patterns and insights
+* **LinkedIn:** [https://www.linkedin.com/in/shazmoghaddam/](https://www.linkedin.com/in/shazmoghaddam/)
+* **Instagram:** [https://instagram.com/shaz.0098](https://instagram.com/shaz.0098)
 
-Python Applications – Small, focused projects demonstrating problem-solving and clean code
+---
 
-NLP & AI Experiments – Early-stage projects exploring text analysis and chatbot development
+## 📌 Highlights
 
-➡️ Please explore my repositories below to view code, notebooks, and detailed project explanations.
+* Strong interest in data-driven decision making
+* Able to explain technical concepts clearly to non-technical audiences
+* Motivated career-switcher with real-world problem-solving experience
+* Committed to continuous learning and professional growth
 
-📈 GitHub
+---
 
-GitHub: https://github.com/ShazMoghaddam
-
-🌐 Connect With Me
-
-LinkedIn: https://www.linkedin.com/in/shazmoghaddam/
-
-Instagram: https://instagram.com/shaz.0098
-
-📌 A Bit More About Me
-
-Strong interest in data-driven decision making
-
-Comfortable explaining technical concepts in simple terms
-
-Highly motivated career-switcher with real-world problem-solving experience
-
-Committed to continuous learning and professional growth
-
-Thanks for visiting my profile—feel free to connect or explore my work.
+*Thanks for visiting my profile — feel free to connect or explore my work.*
