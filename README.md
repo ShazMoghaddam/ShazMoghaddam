@@ -1,175 +1,62 @@
-# Shaz Moghaddam
+Hi, I'm Shaz
 
-<p align="center">
-  <strong>Data Scientist · Python Developer · App Developer</strong><br/>
-  London, UK
-</p>
+Python and AI engineer based in London. I build data platforms that take messy, real-world input and turn it into something deployed, tested and usable: LLM-powered document extraction, ML anomaly detection, and analytics dashboards on FastAPI and Plotly Dash.
 
-<p align="center">
-  <a href="https://shazmoghaddam.github.io"><img src="https://img.shields.io/badge/Website-shazmoghaddam.github.io-black?logo=github"/></a>
-  <a href="https://github.com/ShazMoghaddam"><img src="https://img.shields.io/badge/GitHub-ShazMoghaddam-black?logo=github"/></a>
-  <a href="https://www.linkedin.com/in/shazmoghaddam/"><img src="https://img.shields.io/badge/LinkedIn-Shaz%20Moghaddam-blue?logo=linkedin"/></a>
-  <a href="https://instagram.com/shaz.0098"><img src="https://img.shields.io/badge/Instagram-shaz.0098-E4405F?logo=instagram"/></a>
-  <a href="https://medium.com/@shaz.moghaddam"><img src="https://img.shields.io/badge/Medium-shaz.moghaddam-black?logo=medium"/></a>
-  <img src="https://img.shields.io/badge/Python-Advanced-blue?logo=python"/>
-  <img src="https://img.shields.io/badge/Data%20Science-Active-green"/>
-</p>
+Trained through Imperial College London's Data Science Bootcamp (96% average). Looking for ML/AI engineering and data roles in London or remote.
 
----
+Portfolio · LinkedIn · shaz.moghaddam@gmail.com
 
-## 👋 About Me
+Featured projects
+VoltScope: LLM extraction and validation for UK energy bills
 
-I'm a London-based **data scientist and Python developer**, trained at **Imperial College London** (96% average). I work across the whole data workflow, from messy raw data to a deployed model, and I care about keeping things clean, documented, and easy for the next person to follow.
+Commercial energy bills arrive as PDFs and phone photos in every layout you can imagine. VoltScope sends each one to Claude for schema-constrained extraction into a fixed Pydantic model, then runs deterministic checks the LLM shouldn't be trusted with: MPAN digit counts, subtotal and VAT reconciliation, duplicate charges, estimated reads and contract renewal windows.
 
-Outside data work I build and ship my own products: Android apps, trader tools, generative art, live wallpapers, screensavers, interactive maps, and word-cloud typography. Forty-six projects so far across the **Google Play Store**, **Gumroad**, **Lemon Squeezy**, and **Envato**. Running these myself taught me the parts a job rarely does: how to price something, when to ship, and when to keep going.
+The design principle is simple: the LLM does the reading, plain Python does the checking. 50 golden-file tests on real anonymised supplier bills keep the extraction honest.
 
-I'm available for **freelance and contract work**, open to collaboration, and looking for a data or Python development role.
+Python FastAPI Claude API Pydantic SQLite Docker
 
----
+VoltEdge: energy intelligence platform
 
-## 🎓 Certifications
+Multi-site energy monitoring with per-site isolation forest anomaly detection, causal root-cause analysis using the PC algorithm, Scope 2 emissions reporting, and a Claude assistant that answers questions like "what caused the spike at the London factory last Thursday?" Runs on 90 days of simulated data across four site types.
 
-| Credential | Issuer | Date |
-|------------|--------|------|
-| Google Play Store Listing Certificate | Google Play Academy | April 14, 2026 |
-| 50 Blood Donations Certificate | NHS Blood & Transplant | 2026 |
-| The Data Science Course: Complete Data Science Bootcamp 2025 | Udemy | Oct 2, 2025 |
-| Data Science Online Bootcamp (96% avg) | Imperial College London / HyperionDev | June 10, 2025 |
-| iOS & Swift: The Complete iOS App Development Bootcamp | Udemy | Jan 23, 2024 |
-| 100 Days of Code: The Complete Python Pro Bootcamp | Udemy | July 14, 2023 |
+903 tests · JWT auth with role-based access · Live demo (free tier, give it up to a minute to wake up)
 
----
+Python FastAPI Plotly Dash scikit-learn NetworkX Claude API Docker
 
-## 🧠 Technical Skills
+ClinIQ: clinical trial site performance
 
-**Languages & Data**
-`Python` `Dart / Flutter` `Kotlin & Java` `JavaScript` `HTML & CSS` `SVG` `SQL / SQLite` `Machine Learning` `NLP & spaCy` `pandas & NumPy` `SciPy` `scikit-learn` `TensorFlow`
+Tracks enrolment velocity, site risk scores and protocol deviations for mid-sized CROs, with an AI insights layer on top. Built in five phases with 496 tests.
 
-**Frameworks & Tools**
-`FastAPI` `Plotly Dash` `SQLAlchemy` `React` `Flask` `Electron` `Streamlit` `Node.js` `Firebase` `Docker` `Git & GitHub` `REST APIs` `Jupyter` `Matplotlib & Seaborn` `Vanilla JS`
+Python FastAPI Plotly Dash SQLAlchemy scikit-learn spaCy Claude API
 
-**Cloud, Design & Product**
-`AWS` `GCP` `Railway` `Render` `Android Development` `Generative Design` `UI / Visual Design` `Digital Product Design` `LLM & AI Integration` `Causal AI` `Tableau / Power BI` `Photography` `Videography`
+SalaryAxis: UK salary benchmarks from ONS data
 
----
+Takes ONS Annual Survey of Hours and Earnings data, adjusts it for CPI inflation, and serves salary benchmarks by region and occupation through a REST API and React dashboard, including gender pay gap trends over time.
 
-## 📂 Featured Projects
+Python Flask pandas SciPy React Docker
 
-| # | Project | Stack |
-|---|---------|-------|
-| 01 | [VoltEdge](https://github.com/ShazMoghaddam/voltedge) — Enterprise energy intelligence platform with real-time monitoring, causal AI anomaly detection, and CSRD-ready ESG reporting | Python, FastAPI, Plotly Dash, scikit-learn, SQLite, Docker, Claude AI |
-| 02 | [ClinIQ](https://github.com/ShazMoghaddam/cliniq) — B2B intelligence platform for monitoring clinical trial site performance: enrolment velocity, risk scoring, deviation tracking, and AI-assisted insights for mid-market CROs across the UK and EU | Python, FastAPI, Plotly Dash, SQLAlchemy, scikit-learn, spaCy, SQLite, Docker, Claude AI |
-| 03 | [World Map](https://github.com/ShazMoghaddam/world-map) — Interactive choropleth map of 172 countries across 7 data layers, with custom data import and a JavaScript API | HTML, CSS, Vanilla JS, SVG |
-| 04 | [SalaryAxis](https://github.com/ShazMoghaddam/salaryaxis) — UK salary intelligence platform built on ONS open data | Python, Flask, React, pandas, NumPy, SciPy, Docker, AWS / GCP |
-| 05 | [CVLens](https://github.com/ShazMoghaddam/CVLens) — NLP-powered CV parser, section detector, and quality feedback engine | Python, spaCy, PyMuPDF, python-docx, regex |
-| 06 | [Aero Atlas Screensaver](https://github.com/ShazMoghaddam/aero-atlas-screensaver) — Split-flap world clock screensaver for macOS and Windows | Electron, HTML, CSS, JS |
-| 07 | [Typography Digits](https://github.com/ShazMoghaddam/typography-digits) — Generative word-cloud art where 0–9 are built from programming vocabulary | HTML, Canvas, SVG, Vanilla JS |
-| 08 | [KNOK Matrix / Mono](https://github.com/ShazMoghaddam/KNOK-Matrix-Mono-font) — Geometric SVG typographic system and live digital clock | HTML, CSS, SVG, Vanilla JS |
-| 09 | [TradeHours Pro](https://github.com/ShazMoghaddam/tradehours-pro) — Live global market hours tracker with holiday calendar and PWA support | HTML, CSS, Vanilla JS |
-| 10 | [Market Pulse](https://github.com/ShazMoghaddam/Market-Pulse-Minimal-Economic-Calendar-for-Traders) — Minimal economic calendar for traders with live event status and countdowns | HTML, CSS, Vanilla JS |
-| 11 | [SearchWars](https://github.com/ShazMoghaddam/searchwars) — Flutter mobile game: guess which of two things gets more Google searches | Dart, Flutter, Firebase |
-| 12 | [FIFA World Cup 2026 Predictor](https://github.com/ShazMoghaddam/wc2026) — Interactive bracket predictor with 188-question trivia quiz and PNG export | HTML, CSS, Vanilla JS |
-| 13 | [Lending Club Loan Project](https://github.com/ShazMoghaddam/Lending_Club_Loan_Project) — Loan default prediction with logistic regression | Python, pandas, NumPy, scikit-learn |
+CVLens: NLP CV analyser
 
-➡️ See all projects on my [website](https://shazmoghaddam.github.io#projects) or browse the repositories below.
+Parses PDF and Word CVs, detects sections, extracts skills with spaCy and generates readable quality feedback.
 
----
+Python spaCy PyMuPDF python-docx
 
-## 🔬 Data Science & Analysis
+Lending Club: loan default prediction
 
-Exploratory and predictive data-science work in Python and Jupyter.
+Logistic regression model predicting loan default risk on Lending Club data.
 
-| Project | Stack |
-|---------|-------|
-| [Stock Tracker Dashboard](https://github.com/ShazMoghaddam/Stock_Tracker_Dashboard) — Real-time interactive dashboard tracking live stock prices, key metrics, and dynamic charts | Python, Streamlit, yfinance, pandas, Plotly, REST API |
-| [FAO & FDI Data Analysis](https://github.com/ShazMoghaddam/FAO-FDI-Analysis-World-Bank-Open-Data) — Global agricultural and foreign direct investment trends from FAO and World Bank open data | Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter |
-| [Mental Health in Tech Analysis](https://github.com/ShazMoghaddam/Mental-Health-in-Tech-Analysis) — Exploratory analysis of mental health survey data across the tech industry | Python, pandas, Matplotlib, Seaborn, Jupyter |
-| [Crime Data Analysis](https://github.com/ShazMoghaddam/Crime-Data-Analysis-Project) — Exploratory analysis of crime data, surfacing patterns across categories and locations | Python, pandas, Matplotlib, Seaborn, Jupyter |
-| [Depression Indicator Analysis](https://github.com/ShazMoghaddam/depression-indicator-analysis) — Exploratory analysis of survey data to examine indicators associated with depression | Python, pandas, Matplotlib, Seaborn, Jupyter |
-| [Instagram Analysis](https://github.com/ShazMoghaddam/Instagram-Analysis) — Exploratory data analysis of Instagram engagement and account data | Python, pandas, Matplotlib, Seaborn, Jupyter |
-| [Spotify Analysis](https://github.com/ShazMoghaddam/Spotify-Analysis) — Exploratory data analysis of Spotify audio features and listening data | Python, pandas, Matplotlib, Seaborn, Jupyter |
+<!-- Add one line with your key result here, e.g. the metric you optimised for and what it achieved -->
 
----
+Python pandas scikit-learn
 
-## 🛠️ Developer Reference Tools
+What I work with
 
-A set of single-file, zero-dependency reference tools, each one page of vanilla JS with a live GitHub Pages demo.
+Python pandas NumPy scikit-learn spaCy SQL FastAPI Flask Plotly Dash Streamlit Pydantic Docker Git pytest Claude API Render Railway
 
-| Tool | What it does |
-|------|--------------|
-| [Regex Decoder](https://github.com/ShazMoghaddam/regex-decoder) · [live](https://shazmoghaddam.github.io/regex-decoder/) | Explains a regex token by token in plain English, then tests it against your text with matches highlighted live, using the browser's native engine |
-| [Cron Decoder](https://github.com/ShazMoghaddam/cron-decoder) · [live](https://shazmoghaddam.github.io/cron-decoder/) | Reads a cron schedule field by field and computes the next run times in your local timezone |
-| [Python Exceptions](https://github.com/ShazMoghaddam/python-exceptions) · [live](https://shazmoghaddam.github.io/python-exceptions/) | Searchable guide to 42 built-in exceptions, grouped by cause, with what triggers each and how to fix it |
-| [HTTP Headers](https://github.com/ShazMoghaddam/http-headers) · [live](https://shazmoghaddam.github.io/http-headers/) | Searchable guide to 61 HTTP headers, grouped by role, each with a plain-English meaning |
-| [HTTP Status Codes](https://github.com/ShazMoghaddam/http-status-codes) · [live](https://shazmoghaddam.github.io/http-status-codes/) | Searchable guide to 92 status codes by class, including the proxy, CDN, and vendor codes you meet in the wild |
-| [Tech Acronyms](https://github.com/ShazMoghaddam/tech-acronyms) · [live](https://shazmoghaddam.github.io/tech-acronyms/) | Searchable guide to 270+ tech acronyms, grouped by field, each with a plain-English meaning |
+Also built
 
----
+A set of small developer tools, each with a live demo: Regex Decoder, Cron Decoder, Python Exceptions and HTTP Status Codes.
 
-## 📱 Android Apps
+I also ship Android apps and digital products on my own. You can find all of them on my website.
 
-| App | Status |
-|-----|--------|
-| [Bingo Maths](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.bingomaths) | Live — Free |
-| [Math Adventure — Maths for Kids](https://play.google.com/store/apps/details?id=com.shazmoghaddam.mathadventure) | Live — Free |
-| [Animated Month Wallpaper](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.animatedmonthwallpaper) | Live — Free |
-| [Animated Weekday Wallpaper](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.animatedweeklywallpaper) | Live — Free |
-| [Split Flap World Clock](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.splitflapworldclock) | Live — Free |
-| [World Builders](https://play.google.com/store/apps/details?id=com.shazmoghaddam.worldbuilders) | Live — Free |
-| [SearchWars — Which Gets More Google Searches?](https://play.google.com/store/apps/details?id=com.searchwars.app) | Live — Free |
-
----
-
-## 🛍️ Digital Products
-
-| Product | Platform |
-|---------|----------|
-| Market Pulse — Minimal Economic Calendar for Traders | Gumroad |
-| TradeHours Pro — Live Global Market Hours | Gumroad |
-| KNOK Matrix / Mono — Geometric SVG Typographic System | Gumroad |
-| Typography Digits — Generative Word-Cloud Art | Gumroad |
-| Animated Live Wallpapers — Months & Weekdays | Lemon Squeezy |
-| Aero Atlas — Terminal Time Screensaver | Envato |
-
----
-
-## 🗺️ Interactive Tools
-
-| Tool | Description |
-|------|-------------|
-| [VoltEdge Demo](https://voltedge-1k6q.onrender.com) | Enterprise energy intelligence platform — live demo |
-| [World Map](https://shazmoghaddam.github.io/world-map) | Choropleth map — 172 countries, 7 data layers, custom data import |
-| [FIFA WC 2026 Predictor](https://shazmoghaddam.github.io/wc2026) | Interactive bracket predictor with trivia quiz and social sharing |
-| [Bingo Maths PWA](https://shazmoghaddam.github.io/bingo-maths/) | Times tables bingo game — playable in browser |
-| [Math Adventure PWA](https://ShazMoghaddam.github.io/Math-Adventure) | Maths adventure game for children aged 4–9 |
-
----
-
-## ✍️ Writing
-
-Published on [Medium](https://medium.com/@shaz.moghaddam) — *"Reader. Someone still figuring it out, one book at a time. Writing about growth, wisdom, and the honest business of becoming yourself."*
-
-| Article | |
-|---------|---|
-| [The Art of Becoming](https://medium.com/@shaz.moghaddam/the-art-of-becoming-440d736a68fc) | Growth, identity, and the person you're still becoming |
-| [The Art of Unlearning](https://medium.com/@shaz.moghaddam/the-art-of-unlearning-1b14d5be3985) | Letting go of what no longer fits |
-| [Building Resilience in the Face of Change](https://medium.com/@shaz.moghaddam/building-resilience-in-the-face-of-change-d2f7bc777314) | Continuing forward when life doesn't go to plan |
-| [The Road Is Always Calling](https://medium.com/@shaz.moghaddam/the-road-is-always-calling-252fc652420f) | On riding, growing up, and the things we pass on without even realising it |
-| [Co-Evolving](https://medium.com/@shaz.moghaddam/co-evolving-5e9567d9bcfb) | On AI, socialising, and wellbeing |
-| [One Ear, Two Kids, and Fifty Pints of Gratitude](https://medium.com/@shaz.moghaddam/one-ear-two-kids-and-fifty-pints-of-gratitude-328e444b2126) | On blood donation, perspective, and what really matters |
-| [The Weight of Enough](https://medium.com/@shaz.moghaddam/the-weight-of-enough-c338ef1df0e2) | On consumption, pace, and what it means to have enough |
-
----
-
-## 📫 Contact
-
-- **Email:** shaz.moghaddam@gmail.com
-- **Website:** [shazmoghaddam.github.io](https://shazmoghaddam.github.io)
-- **LinkedIn:** [linkedin.com/in/shazmoghaddam](https://www.linkedin.com/in/shazmoghaddam/)
-- **Medium:** [medium.com/@shaz.moghaddam](https://medium.com/@shaz.moghaddam)
-
-Open to **freelance**, **contract**, and **full-time** opportunities in data science, Python development, and digital product work — in London or internationally, wherever the work is interesting.
-
----
-
-*Made with intention.*
+Open to full-time, contract and freelance work. If you're building something with data or LLMs, I'd like to hear about it.
