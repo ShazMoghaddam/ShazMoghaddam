@@ -10,6 +10,14 @@ Trained through Imperial College London's Data Science Bootcamp (96% average). L
 
 ## Featured projects
 
+### LedgerLet: Making Tax Digital for UK landlords *(in development)*
+
+Making Tax Digital for Income Tax means many UK landlords now have to keep digital records and send HMRC an update every quarter. LedgerLet is the product I'm building for them: record income and expenses across every property at your ownership share, import bank statements as CSV with a preview and duplicate check, see each quarter in HMRC's own categories, and send it with a receipt you can keep.
+
+It's built as a modular monolith with four layers (API, service, repository, model), and every phase has to pass its tests before the next one starts. Properties and the transactions core are done; CSV import and HMRC quarterly submissions are next. The repo is private while it's in development, but I've open-sourced the UX documentation approach as [ux-boards](https://github.com/ShazMoghaddam/ux-boards).
+
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `Vite` `Docker`
+
 ### [VoltScope](https://github.com/ShazMoghaddam/voltscope): LLM extraction and validation for UK energy bills
 
 Commercial energy bills arrive as PDFs and phone photos in every layout you can imagine. VoltScope sends each one to Claude for schema-constrained extraction into a fixed Pydantic model, then runs deterministic checks the LLM shouldn't be trusted with: MPAN digit counts, subtotal and VAT reconciliation, duplicate charges, estimated reads and contract renewal windows.
@@ -53,15 +61,27 @@ Logistic regression model predicting loan default risk on Lending Club data.
 
 ---
 
+## Open source
+
+**[ux-boards](https://github.com/ShazMoghaddam/ux-boards):** turn one YAML file into UX documentation boards (information architecture, navigation by screen size, wireframes and a visual system with WCAG contrast checks), exported as HTML, PDF and PNG. [Live examples](https://shazmoghaddam.github.io/ux-boards/)
+
+`Python` `Jinja2` `Playwright` `GitHub Actions`
+
+**[Orbs](https://github.com/ShazMoghaddam/orbs):** ten morphing dot-formation animations for the web. One file, no dependencies. [Live demo](https://shazmoghaddam.github.io/orbs/)
+
+`JavaScript` `Canvas`
+
+---
+
 ## What I work with
 
-`Python` `pandas` `NumPy` `scikit-learn` `spaCy` `SQL` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `Docker` `Git` `pytest` `Claude API` `Render` `Railway`
+`Python` `pandas` `NumPy` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLAlchemy` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `React` `Docker` `Git` `pytest` `GitHub Actions` `Claude API` `Render` `Railway`
 
 ---
 
 ## Also built
 
-A set of small developer tools, each with a live demo: [Regex Decoder](https://shazmoghaddam.github.io/regex-decoder/), [Cron Decoder](https://shazmoghaddam.github.io/cron-decoder/), [Python Exceptions](https://shazmoghaddam.github.io/python-exceptions/) and [HTTP Status Codes](https://shazmoghaddam.github.io/http-status-codes/).
+A set of small developer tools, each with a live demo: [Regex Decoder](https://shazmoghaddam.github.io/regex-decoder/), [Cron Decoder](https://shazmoghaddam.github.io/cron-decoder/), [Python Exceptions](https://shazmoghaddam.github.io/python-exceptions/), [HTTP Status Codes](https://shazmoghaddam.github.io/http-status-codes/), [HTTP Headers](https://shazmoghaddam.github.io/http-headers/) and [Tech Acronyms](https://shazmoghaddam.github.io/tech-acronyms/).
 
 I also ship Android apps and digital products on my own. You can find all of them on [my website](https://shazmoghaddam.github.io).
 
