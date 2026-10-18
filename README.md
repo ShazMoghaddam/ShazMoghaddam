@@ -83,7 +83,7 @@ Logistic regression model predicting loan default risk on Lending Club data.
 
 A set of small developer tools, each with a live demo: [Regex Decoder](https://shazmoghaddam.github.io/regex-decoder/), [Cron Decoder](https://shazmoghaddam.github.io/cron-decoder/), [Python Exceptions](https://shazmoghaddam.github.io/python-exceptions/), [HTTP Status Codes](https://shazmoghaddam.github.io/http-status-codes/), [HTTP Headers](https://shazmoghaddam.github.io/http-headers/) and [Tech Acronyms](https://shazmoghaddam.github.io/tech-acronyms/).
 
-I also ship Android apps and digital products on my own. You can find all of them on [my website](https://shazmoghaddam.github.io).
+I've also published 7 apps on Google Play and sell digital products on my own. You can find all of them on [my website](https://shazmoghaddam.github.io).
 
 ---
 
