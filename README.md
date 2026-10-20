@@ -4,7 +4,7 @@ Python and AI engineer based in London. I build data platforms that take messy, 
 
 Trained through Imperial College London's Data Science Bootcamp (96% average). Looking for ML/AI engineering and data roles in London or remote.
 
-[Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · shaz.moghaddam@gmail.com
+[Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · [DEV](https://dev.to/shazmoghaddam) · [Reddit](https://www.reddit.com/user/Aggravating_Pie2373/) · shaz.moghaddam@gmail.com
 
 ---
 
@@ -67,15 +67,25 @@ Logistic regression model predicting loan default risk on Lending Club data.
 
 `Python` `Jinja2` `Playwright` `GitHub Actions`
 
-**[Orbs](https://github.com/ShazMoghaddam/orbs):** ten morphing dot-formation animations for the web. One file, no dependencies. [Live demo](https://shazmoghaddam.github.io/orbs/)
+**[Orbs](https://github.com/ShazMoghaddam/orbs):** ten morphing dot-formation animations for the web, from a Fibonacci sphere to a rolling torus, and any shape can morph into any other. One file, about 5 KB gzipped, no dependencies, themed with plain CSS. [Live demo](https://shazmoghaddam.github.io/orbs/) · [How I built it](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h)
 
 `JavaScript` `Canvas`
+
+**[Strata Symbol Kit](https://github.com/ShazMoghaddam/strata-symbols):** 183 layered-line symbols, letters and numbers for designers. Adjust the line count, angle and colour in the browser, then export clean SVG, PNG or a full sprite. [Live editor](https://shazmoghaddam.github.io/strata-symbols/)
+
+`JavaScript` `Python` `SVG`
+
+---
+
+## Writing
+
+- [How I built morphing dot animations with plain canvas, no libraries (5 KB)](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h) on DEV
 
 ---
 
 ## What I work with
 
-`Python` `pandas` `NumPy` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLAlchemy` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `React` `Docker` `Git` `pytest` `GitHub Actions` `Claude API` `Render` `Railway`
+`Python` `pandas` `NumPy` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `JavaScript` `React` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Render` `Railway`
 
 ---
 
