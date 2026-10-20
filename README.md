@@ -4,7 +4,7 @@ Python and AI engineer based in London. I build data platforms that take messy, 
 
 Trained through Imperial College London's Data Science Bootcamp (96% average). Looking for ML/AI engineering and data roles in London or remote.
 
-[Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · [DEV](https://dev.to/shazmoghaddam) · [Reddit](https://www.reddit.com/user/Aggravating_Pie2373/) · shaz.moghaddam@gmail.com
+[Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · [DEV](https://dev.to/shazmoghaddam) · [Medium](https://medium.com/@shaz.moghaddam) · [Reddit](https://www.reddit.com/user/Aggravating_Pie2373/) · shaz.moghaddam@gmail.com
 
 ---
 
@@ -78,7 +78,21 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 ## Writing
 
-- [How I built morphing dot animations with plain canvas, no libraries (5 KB)](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h) on DEV
+**Technical, on [DEV](https://dev.to/shazmoghaddam)**
+
+- [How I built morphing dot animations with plain canvas, no libraries (5 KB)](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h)
+
+**Personal essays, on [Medium](https://medium.com/@shaz.moghaddam)**
+
+Reflections on becoming, connection, and the things that stay with you.
+
+- [Co-Evolving](https://medium.com/@shaz.moghaddam/co-evolving-5e9567d9bcfb): on AI, socialising, and the quiet search for connection
+- [The Weight of Enough](https://medium.com/@shaz.moghaddam/the-weight-of-enough-c338ef1df0e2): on consumption, pace, and what it means to have enough
+- [One Ear, Two Kids, and Fifty Pints of Gratitude](https://medium.com/@shaz.moghaddam/one-ear-two-kids-and-fifty-pints-of-gratitude-328e444b2126): on hearing loss, fatherhood, and counting what counts
+- [The Road Is Always Calling](https://medium.com/@shaz.moghaddam/the-road-is-always-calling-252fc652420f): on riding, growing up, and the things we pass on
+- [Building Resilience in the Face of Change](https://medium.com/@shaz.moghaddam/building-resilience-in-the-face-of-change-d2f7bc777314): continuing forward when life doesn't go to plan
+- [The Art of Unlearning](https://medium.com/@shaz.moghaddam/the-art-of-unlearning-1b14d5be3985): letting go of what no longer fits
+- [The Art of Becoming](https://medium.com/@shaz.moghaddam/the-art-of-becoming-440d736a68fc): growth, identity, and the person you're still becoming
 
 ---
 
