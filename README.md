@@ -54,8 +54,7 @@ Parses PDF and Word CVs, detects sections, extracts skills with spaCy and genera
 
 ### [Lending Club](https://github.com/ShazMoghaddam/Lending_Club_Loan_Project): loan default prediction
 
-Logistic regression model predicting loan default risk on Lending Club data.
-<!-- Add one line with your key result here, e.g. the metric you optimised for and what it achieved -->
+Logistic regression model predicting loan default risk on Lending Club data. With balanced class weights it catches 59% of defaults across 451,786 held-out loans, at 21% precision, so it works as a first-pass risk flag rather than an approval decision.
 
 `Python` `pandas` `scikit-learn`
 
