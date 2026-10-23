@@ -62,6 +62,10 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 ## Open source
 
+**[Bezel](https://github.com/ShazMoghaddam/bezel):** open-source clock, calendar and weather tiles, inspired by Apple's StandBy widgets. Five zero-dependency web components drawn in vectors, so they look the same at 120 px or across a 4K screen, with a Studio to design a tile and share it as a link, automatic dark mode, live weather from Open-Meteo and `.ics` calendar feeds. About 25 KB gzipped. [Live Studio](https://shazmoghaddam.github.io/bezel/site/) · [How I built it](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
+
+`JavaScript` `Web Components` `SVG` `Container Queries`
+
 **[ux-boards](https://github.com/ShazMoghaddam/ux-boards):** turn one YAML file into UX documentation boards (information architecture, navigation by screen size, wireframes and a visual system with WCAG contrast checks), exported as HTML, PDF and PNG. [Live examples](https://shazmoghaddam.github.io/ux-boards/)
 
 `Python` `Jinja2` `Playwright` `GitHub Actions`
@@ -80,6 +84,7 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 **Technical, on [DEV](https://dev.to/shazmoghaddam)**
 
+- [Apple took a bite out of theirs, so I made the whole apple: Bezel, open-source clock, calendar and weather web components](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
 - [How I built morphing dot animations with plain canvas, no libraries (5 KB)](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h)
 
 **Personal essays, on [Medium](https://medium.com/@shaz.moghaddam)**
