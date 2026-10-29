@@ -1,3 +1,5 @@
+<a href="https://shazmoghaddam.github.io"><img src="assets/banner.png" alt="Shaz Moghaddam. Data scientist building B2B data platforms in Python. London, UK. shazmoghaddam.github.io, linkedin.com/in/shazmoghaddam" width="100%"></a>
+
 # Hi, I'm Shaz
 
 Python and AI engineer based in London. I build data platforms that take messy, real-world input and turn it into something deployed, tested and usable: LLM-powered document extraction, ML anomaly detection, and analytics dashboards on FastAPI and Plotly Dash.
@@ -14,9 +16,9 @@ Trained through Imperial College London's Data Science Bootcamp (96% average). L
 
 Making Tax Digital for Income Tax means many UK landlords now have to keep digital records and send HMRC an update every quarter. LedgerLet is the product I'm building for them: record income and expenses across every property at your ownership share, import bank statements as CSV with a preview and duplicate check, see each quarter in HMRC's own categories, and send it with a receipt you can keep.
 
-It's built as a modular monolith with four layers (API, service, repository, model), and every phase has to pass its tests before the next one starts. Properties and the transactions core are done; CSV import and HMRC quarterly submissions are next. The repo is private while it's in development, but I've open-sourced the UX documentation approach as [ux-boards](https://github.com/ShazMoghaddam/ux-boards).
+It's built as a modular monolith with four layers (API, service, repository, model), and every phase has to pass its tests before the next one starts. It now works end to end against HMRC's sandbox: properties, transactions, CSV import and quarterly updates, with the first sandbox submission accepted in October 2026. Next up are HMRC production approval and the year-end final declaration. The repo is private while it's in development, but I've open-sourced the UX documentation approach as [ux-boards](https://github.com/ShazMoghaddam/ux-boards).
 
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `Vite` `Docker`
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `Vite` `Auth0` `Docker` `HMRC MTD API`
 
 ### [VoltScope](https://github.com/ShazMoghaddam/voltscope): LLM extraction and validation for UK energy bills
 
@@ -62,6 +64,10 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 ## Open source
 
+**[Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts):** charts that look finished the moment you add them. Ten chart tiles drawn in pure SVG (bars, grouped bars, lines, donuts, rings, gauges, sparklines, a scatter plot with a trend line and Pearson's r, and an activity heatmap), each one HTML tag. Build a chart in the Studio from a CSV, Excel or JSON file, paste one line into any site, or export it as a static SVG for a README or slide. Light and dark themes, any locale, accessible to screen readers, about 12 kB gzipped with no dependencies. [Live Studio](https://shazmoghaddam.github.io/bezel-charts/site/) · [How I built it](https://dev.to/shazmoghaddam/charts-that-look-finished-the-moment-you-add-them-54jd)
+
+`JavaScript` `Web Components` `SVG`
+
 **[Bezel](https://github.com/ShazMoghaddam/bezel):** open-source clock, calendar and weather tiles, inspired by Apple's StandBy widgets. Five zero-dependency web components drawn in vectors, so they look the same at 120 px or across a 4K screen, with a Studio to design a tile and share it as a link, automatic dark mode, live weather from Open-Meteo and `.ics` calendar feeds. About 25 KB gzipped. [Live Studio](https://shazmoghaddam.github.io/bezel/site/) · [How I built it](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
 
 `JavaScript` `Web Components` `SVG` `Container Queries`
@@ -80,10 +86,23 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 ---
 
+## Data projects and community
+
+**[House Prices & the Economy](https://github.com/ShazMoghaddam/uk-house-prices-economy):** a free monthly UK data challenge on how house prices rise and fall with jobs, pay, interest rates and the cost of living. Each month brings one plain-English question, free government data and three levels from beginner to expert. Anyone can take part by opening a pull request. November 2026: booms and busts.
+
+`Python` `pandas` `matplotlib` `UK House Price Index` `ONS`
+
+**[Top 50 Universities 2027](https://github.com/ShazMoghaddam/top-universities-2027):** the world's top 50 universities from the THE World University Rankings 2027, with each one's location, score and what it's best known for. One Python script turns a CSV into a designed PDF carousel for LinkedIn and 1080×1350 slides for Instagram, and a check script confirms every figure in the PDF matches the data.
+
+`Python` `Playwright` `SVG` `GitHub Actions`
+
+---
+
 ## Writing
 
 **Technical, on [DEV](https://dev.to/shazmoghaddam)**
 
+- [Charts that look finished the moment you add them: Bezel Charts](https://dev.to/shazmoghaddam/charts-that-look-finished-the-moment-you-add-them-54jd)
 - [Apple took a bite out of theirs, so I made the whole apple: Bezel, open-source clock, calendar and weather web components](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
 - [How I built morphing dot animations with plain canvas, no libraries (5 KB)](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h)
 
@@ -111,8 +130,10 @@ Reflections on becoming, connection, and the things that stay with you.
 
 A set of small developer tools, each with a live demo: [Regex Decoder](https://shazmoghaddam.github.io/regex-decoder/), [Cron Decoder](https://shazmoghaddam.github.io/cron-decoder/), [Python Exceptions](https://shazmoghaddam.github.io/python-exceptions/), [HTTP Status Codes](https://shazmoghaddam.github.io/http-status-codes/), [HTTP Headers](https://shazmoghaddam.github.io/http-headers/) and [Tech Acronyms](https://shazmoghaddam.github.io/tech-acronyms/).
 
-I've also published 7 apps on Google Play and sell digital products on my own. You can find all of them on [my website](https://shazmoghaddam.github.io).
+Alongside the platforms, I've published 7 apps on Google Play and 25 digital products, 50+ projects in all. You can find them on [my website](https://shazmoghaddam.github.io).
 
 ---
 
 Open to full-time, contract and freelance work. If you're building something with data or LLMs, I'd like to hear about it.
+
+<sub>Shaz Moghaddam · London · [shazmoghaddam.github.io](https://shazmoghaddam.github.io)</sub>
