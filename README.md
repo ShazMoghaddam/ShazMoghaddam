@@ -12,13 +12,15 @@ Trained through Imperial College London's Data Science Bootcamp (96% average). L
 
 ## Featured projects
 
-### LedgerLet: Making Tax Digital for UK landlords *(in development)*
+### [LedgerLet](https://ledgerlet.onrender.com): Making Tax Digital for UK landlords
 
-Making Tax Digital for Income Tax means many UK landlords now have to keep digital records and send HMRC an update every quarter. LedgerLet is the product I'm building for them: record income and expenses across every property at your ownership share, import bank statements as CSV with a preview and duplicate check, see each quarter in HMRC's own categories, and send it with a receipt you can keep.
+Making Tax Digital for Income Tax means many UK landlords now have to keep digital records and send HMRC an update every quarter. LedgerLet keeps their property records and files those cumulative quarterly updates straight to HMRC. Landlords add income and expenses by hand or import a bank statement CSV through a two-step preview that blocks duplicate rows. Every figure is stored as integer pence and mapped to HMRC's property headings, with joint ownership shares and mortgage interest handled the way HMRC requires.
 
-It's built as a modular monolith with four layers (API, service, repository, model), and every phase has to pass its tests before the next one starts. It now works end to end against HMRC's sandbox: properties, transactions, CSV import and quarterly updates, with the first sandbox submission accepted in October 2026. Next up are HMRC production approval and the year-end final declaration. The repo is private while it's in development, but I've open-sourced the UX documentation approach as [ux-boards](https://github.com/ShazMoghaddam/ux-boards).
+It connects to HMRC over OAuth with encrypted tokens, sends validated fraud prevention headers, checks obligations and deadlines, and keeps an append-only audit trail of every submission. It's a modular monolith with a React and TypeScript frontend whose types are generated from the API, and a CI gate of 600+ automated tests, including browser tests with accessibility checks at phone, tablet and laptop sizes. I also open-sourced its UX documentation approach as [ux-boards](https://github.com/ShazMoghaddam/ux-boards).
 
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `Vite` `Auth0` `Docker` `HMRC MTD API`
+600+ tests · Auth0 sign-in (UK region) · [Live demo](https://ledgerlet.onrender.com), running end to end on HMRC's sandbox
+
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `TypeScript` `Vite` `Auth0` `HMRC MTD API` `Playwright` `GitHub Actions` `Docker`
 
 ### [VoltScope](https://github.com/ShazMoghaddam/voltscope): LLM extraction and validation for UK energy bills
 
@@ -72,6 +74,10 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 `JavaScript` `Web Components` `SVG` `Container Queries`
 
+**[World Map](https://github.com/ShazMoghaddam/world-map):** an interactive choropleth map of 172 countries across seven data layers, including GDP per capita, HDI, CO₂ per capita, life expectancy and internet use. Filter by region or political group (EU, G20, NATO, BRICS+), import your own CSV or JSON, share a view as a link or embed it with a JavaScript API. One HTML file, no dependencies, full keyboard navigation and dark mode. [Live demo](https://shazmoghaddam.github.io/world-map)
+
+`JavaScript` `SVG` `HTML5`
+
 **[ux-boards](https://github.com/ShazMoghaddam/ux-boards):** turn one YAML file into UX documentation boards (information architecture, navigation by screen size, wireframes and a visual system with WCAG contrast checks), exported as HTML, PDF and PNG. [Live examples](https://shazmoghaddam.github.io/ux-boards/)
 
 `Python` `Jinja2` `Playwright` `GitHub Actions`
@@ -122,7 +128,25 @@ Reflections on becoming, connection, and the things that stay with you.
 
 ## What I work with
 
-`Python` `pandas` `NumPy` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `JavaScript` `React` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Render` `Railway`
+`Python` `pandas` `NumPy` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `JavaScript` `TypeScript` `React` `Kotlin` `Flutter` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Render` `Railway`
+
+---
+
+## Android apps
+
+Seven apps published on Google Play, all free:
+
+| App | What it does |
+|---|---|
+| [SearchWars](https://play.google.com/store/apps/details?id=com.searchwars.app) | Higher-or-lower game: which gets more Google searches? 3,187 questions across 11 categories. Built in Flutter |
+| [World Builders](https://play.google.com/store/apps/details?id=com.shazmoghaddam.worldbuilders) | Open sandbox for shaping and growing a world at your own pace |
+| [Math Adventure](https://play.google.com/store/apps/details?id=com.shazmoghaddam.mathadventure) | Story-led maths challenges for children aged 3 to 11 |
+| [Bingo Maths](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.bingomaths) | Maths practice with bingo mechanics |
+| [Split Flap World Clock](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.splitflapworldclock) | A split-flap departure board of live world clocks, 300+ cities |
+| [Animated Month Wallpaper](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.animatedmonthwallpaper) | Minimal live wallpaper showing the month, with a live clock |
+| [Animated Weekday Wallpaper](https://play.google.com/store/apps/details?id=com.ShazMoghaddam.animatedweeklywallpaper) | Minimal live wallpaper showing the day of the week, with a live clock |
+
+`Kotlin` `Java` `Flutter` `Android`
 
 ---
 
@@ -130,7 +154,7 @@ Reflections on becoming, connection, and the things that stay with you.
 
 A set of small developer tools, each with a live demo: [Regex Decoder](https://shazmoghaddam.github.io/regex-decoder/), [Cron Decoder](https://shazmoghaddam.github.io/cron-decoder/), [Python Exceptions](https://shazmoghaddam.github.io/python-exceptions/), [HTTP Status Codes](https://shazmoghaddam.github.io/http-status-codes/), [HTTP Headers](https://shazmoghaddam.github.io/http-headers/) and [Tech Acronyms](https://shazmoghaddam.github.io/tech-acronyms/).
 
-Alongside the platforms, I've published 7 apps on Google Play and 25 digital products, 50+ projects in all. You can find them on [my website](https://shazmoghaddam.github.io).
+I also design and sell digital products, including generative artwork like KNOK Matrix and Typography Digits, on [Gumroad](https://shazmogh.gumroad.com/), Envato and Lemon Squeezy: 25 digital products and 50+ projects in all. Everything is on [my website](https://shazmoghaddam.github.io).
 
 ---
 
