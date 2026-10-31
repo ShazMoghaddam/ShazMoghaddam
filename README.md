@@ -4,7 +4,7 @@
 
 Python and AI engineer based in London. I build data platforms that take messy, real-world input and turn it into something deployed, tested and usable: LLM-powered document extraction, ML anomaly detection, and analytics dashboards on FastAPI and Plotly Dash.
 
-Trained through Imperial College London's Data Science Bootcamp (96% average). Looking for ML/AI engineering and data roles in London or remote.
+Trained through Imperial College London's Data Science Bootcamp (96% average). I also publish open-source tools, including [Bezel Charts](https://pypi.org/project/bezel-charts/), a charting library for the web and Python on PyPI. Looking for ML/AI engineering and data roles in London or remote.
 
 [Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · [DEV](https://dev.to/shazmoghaddam) · [Medium](https://medium.com/@shaz.moghaddam) · [Reddit](https://www.reddit.com/user/Aggravating_Pie2373/) · shaz.moghaddam@gmail.com
 
@@ -36,7 +36,7 @@ The design principle is simple: the LLM does the reading, plain Python does the 
 
 Multi-site energy monitoring with per-site isolation forest anomaly detection, causal root-cause analysis using the PC algorithm, Scope 2 emissions reporting, and a Claude assistant that answers questions like "what caused the spike at the London factory last Thursday?" Runs on 90 days of simulated data across four site types.
 
-903 tests · JWT auth with role-based access · [Live demo](https://voltedge-1k6q.onrender.com) (free tier, give it up to a minute to wake up)
+911 tests · JWT auth with role-based access · [Live demo](https://voltedge-1k6q.onrender.com) (free tier, give it up to a minute to wake up)
 
 `Python` `FastAPI` `Plotly Dash` `scikit-learn` `NetworkX` `Claude API` `Docker`
 
@@ -68,9 +68,11 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 ## Open source
 
-**[Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts):** charts that look finished the moment you add them. Ten chart tiles drawn in pure SVG (bars, grouped bars, lines, donuts, rings, gauges, sparklines, a scatter plot with a trend line and Pearson's r, and an activity heatmap), each one HTML tag. Build a chart in the Studio from a CSV, Excel or JSON file, paste one line into any site, or export it as a static SVG for a README or slide. Light and dark themes, any locale, accessible to screen readers, about 12 kB gzipped with no dependencies. [Live Studio](https://shazmoghaddam.github.io/bezel-charts/site/) · [How I built it](https://dev.to/shazmoghaddam/charts-that-look-finished-the-moment-you-add-them-54jd)
+**[Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts):** charts that look finished the moment you add them. [![PyPI](https://img.shields.io/pypi/v/bezel-charts?label=PyPI&color=16A884)](https://pypi.org/project/bezel-charts/) Ten chart tiles drawn in pure SVG (bars, grouped bars, lines, donuts, rings, gauges, sparklines, a scatter plot with a trend line and Pearson's r, and an activity heatmap), each one HTML tag. Build a chart in the Studio from a CSV, Excel or JSON file, paste one line into any site, or export it as a static SVG for a README or slide. Light and dark themes, any locale, accessible to screen readers, about 12 kB gzipped with no dependencies.
 
-`JavaScript` `Web Components` `SVG`
+The same ten charts are also a Python package on PyPI: `pip install bezel-charts`, then one line draws a chart straight from a pandas DataFrame, in a notebook or saved as an SVG. The Python output is tested byte for byte against the browser version in CI, and releases publish themselves from a Git tag. [Live Studio](https://shazmoghaddam.github.io/bezel-charts/site/) · [PyPI](https://pypi.org/project/bezel-charts/) · [How I built it](https://dev.to/shazmoghaddam/charts-that-look-finished-the-moment-you-add-them-54jd)
+
+`JavaScript` `Web Components` `SVG` `Python` `pandas` `PyPI`
 
 **[Bezel](https://github.com/ShazMoghaddam/bezel):** open-source clock, calendar and weather tiles, inspired by Apple's StandBy widgets. Five zero-dependency web components drawn in vectors, so they look the same at 120 px or across a 4K screen, with a Studio to design a tile and share it as a link, automatic dark mode, live weather from Open-Meteo and `.ics` calendar feeds. About 25 KB gzipped. [Live Studio](https://shazmoghaddam.github.io/bezel/site/) · [How I built it](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
 
@@ -95,6 +97,10 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 ---
 
 ## Data projects and community
+
+**[Jobs & the Economy](https://github.com/ShazMoghaddam/uk-jobs-economy):** a free UK data challenge about jobs, unemployment and pay, and the bigger sibling of House Prices. Its State of UK Jobs report of eight findings redraws itself: every week a GitHub Actions job downloads 33 ONS series and HMRC payroll data, tests it, and opens a pull request with fresh charts after each ONS release. At launch it showed long-term sickness up 620,000 since Covid, youth unemployment at 15.6%, and survey and payroll data pointing in opposite directions. Every chart is drawn with Bezel Charts. December 2026: where did the workers go?
+
+`Python` `pandas` `Bezel Charts` `GitHub Actions` `pytest` `ONS` `HMRC`
 
 **[House Prices & the Economy](https://github.com/ShazMoghaddam/uk-house-prices-economy):** a free monthly UK data challenge on how house prices rise and fall with jobs, pay, interest rates and the cost of living. Each month brings one plain-English question, free government data and three levels from beginner to expert. Anyone can take part by opening a pull request. November 2026: booms and busts.
 
@@ -130,7 +136,7 @@ Reflections on becoming, connection, and the things that stay with you.
 
 ## What I work with
 
-`Python` `pandas` `NumPy` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Pydantic` `JavaScript` `TypeScript` `React` `Kotlin` `Flutter` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Render` `Railway`
+`Python` `pandas` `NumPy` `Matplotlib` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Bezel Charts` `Pydantic` `JavaScript` `TypeScript` `React` `Kotlin` `Flutter` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Render` `Railway`
 
 ---
 
