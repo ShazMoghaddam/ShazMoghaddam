@@ -4,7 +4,7 @@
 
 Python and AI engineer based in London. I build data platforms that take messy, real-world input and turn it into something deployed, tested and usable: LLM-powered document extraction, ML anomaly detection, and analytics dashboards on FastAPI and Plotly Dash.
 
-Trained through Imperial College London's Data Science Bootcamp (96% average). I also publish open-source tools, including [Bezel Charts](https://pypi.org/project/bezel-charts/), a charting library for the web and Python on PyPI. Looking for ML/AI engineering and data roles in London or remote.
+Trained through Imperial College London's Data Science Bootcamp (96% average). I also publish open-source tools, including [Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts), a charting library for the web and Python, on npm and PyPI. Looking for ML/AI engineering and data roles in London or remote.
 
 [Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · [DEV](https://dev.to/shazmoghaddam) · [Medium](https://medium.com/@shaz.moghaddam) · [Reddit](https://www.reddit.com/user/Aggravating_Pie2373/) · shaz.moghaddam@gmail.com
 
@@ -12,7 +12,7 @@ Trained through Imperial College London's Data Science Bootcamp (96% average). I
 
 ## Featured projects
 
-My commercial products, LedgerLet, VoltScope, VoltEdge, ClinIQ and SalaryAxis, are published under [Moghaddam Labs](https://github.com/Moghaddam-Labs).
+My commercial products, LedgerLet, PerilMap, VoltEdge, VoltScope, ClinIQ and SalaryAxis, are published under [Moghaddam Labs](https://github.com/Moghaddam-Labs).
 
 ### [LedgerLet](https://ledgerlet.onrender.com): Making Tax Digital for UK landlords
 
@@ -24,13 +24,15 @@ It connects to HMRC over OAuth with encrypted tokens, sends validated fraud prev
 
 `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic` `React` `TypeScript` `Vite` `Auth0` `HMRC MTD API` `Playwright` `GitHub Actions` `Docker`
 
-### [VoltScope](https://github.com/Moghaddam-Labs/voltscope): LLM extraction and validation for UK energy bills
+### [PerilMap](https://perilmap.vercel.app): climate risk around a home, before the insurance quote
 
-Commercial energy bills arrive as PDFs and phone photos in every layout you can imagine. VoltScope sends each one to Claude for schema-constrained extraction into a fixed Pydantic model, then runs deterministic checks the LLM shouldn't be trusted with: MPAN digit counts, subtotal and VAT reconciliation, duplicate charges, estimated reads and contract renewal windows.
+Find a postcode, mark a home on the map and see how exposed the area is to flooding from rivers and sea and from surface water, with risk bands, the distance to each flood zone and plain-English explanations. It also covers subsidence and summer heat across London, and says plainly what it doesn't cover, so a gap in the data can never look like a low risk.
 
-The design principle is simple: the LLM does the reading, plain Python does the checking. 50 golden-file tests on real anonymised supplier bills keep the extraction honest.
+The core knows nothing about any real place: each region and peril is a plug-in that must say what its result means, how sure it is, what to do next and where the data came from. It runs on Environment Agency flood data, with a FastAPI service on Google Cloud Run in London and a Next.js site on Vercel. Privacy is designed in: no cookies or tracking, locations never appear in web addresses or logs, and postcode lookups are proxied so the lookup service never sees who's searching. The site follows WCAG 2.2 AA, and every flood level has a name and a pattern as well as a colour.
 
-`Python` `FastAPI` `Claude API` `Pydantic` `SQLite` `Docker`
+300+ tests · [Live site](https://perilmap.vercel.app) · charts drawn with [Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts)
+
+`Python` `FastAPI` `NumPy` `rasterio` `Next.js` `React` `TypeScript` `MapLibre` `Bezel Charts` `Google Cloud Run` `Vercel` `Playwright` `GitHub Actions`
 
 ### [VoltEdge](https://github.com/Moghaddam-Labs/voltedge): energy intelligence platform
 
@@ -39,6 +41,14 @@ Multi-site energy monitoring with per-site isolation forest anomaly detection, c
 911 tests · JWT auth with role-based access · [Live demo](https://voltedge-1k6q.onrender.com) (free tier, give it up to a minute to wake up)
 
 `Python` `FastAPI` `Plotly Dash` `scikit-learn` `NetworkX` `Claude API` `Docker`
+
+### [VoltScope](https://github.com/Moghaddam-Labs/voltscope): LLM extraction and validation for UK energy bills
+
+Commercial energy bills arrive as PDFs and phone photos in every layout you can imagine. VoltScope sends each one to Claude for schema-constrained extraction into a fixed Pydantic model, then runs deterministic checks the LLM shouldn't be trusted with: MPAN digit counts, subtotal and VAT reconciliation, duplicate charges, estimated reads and contract renewal windows.
+
+The design principle is simple: the LLM does the reading, plain Python does the checking. 50 golden-file tests on real anonymised supplier bills keep the extraction honest.
+
+`Python` `FastAPI` `Claude API` `Pydantic` `SQLite` `Docker`
 
 ### [ClinIQ](https://github.com/Moghaddam-Labs/cliniq): clinical trial site performance
 
@@ -68,11 +78,11 @@ Logistic regression model predicting loan default risk on Lending Club data. Wit
 
 ## Open source
 
-**[Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts):** charts that look finished the moment you add them. [![PyPI](https://img.shields.io/pypi/v/bezel-charts?label=PyPI&color=16A884)](https://pypi.org/project/bezel-charts/) Ten chart tiles drawn in pure SVG (bars, grouped bars, lines, donuts, rings, gauges, sparklines, a scatter plot with a trend line and Pearson's r, and an activity heatmap), each one HTML tag. Build a chart in the Studio from a CSV, Excel or JSON file, paste one line into any site, or export it as a static SVG for a README or slide. Light and dark themes, any locale, accessible to screen readers, about 12 kB gzipped with no dependencies.
+**[Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts):** charts that look finished the moment you add them. [![npm](https://img.shields.io/npm/v/bezel-charts?label=npm&color=CB3837)](https://www.npmjs.com/package/bezel-charts) [![PyPI](https://img.shields.io/pypi/v/bezel-charts?label=PyPI&color=16A884)](https://pypi.org/project/bezel-charts/) Sixteen chart tiles drawn in pure SVG, each one HTML tag: sparklines, lines with real date axes and log scales, areas, bars, bars and a line on two axes, waterfalls, histograms, box plots, a scatter plot with a trend line and Pearson's r, rings, donuts, gauges, progress bars, bullet charts and an activity heatmap. Build a chart in the Studio from a CSV, Excel or JSON file, paste one line into any site, or export it as a static SVG for a README or slide. Data can be set straight from JavaScript, and clicks on any bar, point or slice fire events, from the mouse or the keyboard. Light and dark themes, any locale, accessible to screen readers, about 26 kB gzipped for all sixteen, with no dependencies.
 
-The same ten charts are also a Python package on PyPI: `pip install bezel-charts`, then one line draws a chart straight from a pandas DataFrame, in a notebook or saved as an SVG. The Python output is tested byte for byte against the browser version in CI, and releases publish themselves from a Git tag. [Live Studio](https://shazmoghaddam.github.io/bezel-charts/site/) · [PyPI](https://pypi.org/project/bezel-charts/) · [How I built it](https://dev.to/shazmoghaddam/charts-that-look-finished-the-moment-you-add-them-54jd)
+The same sixteen charts are a Python package: `pip install bezel-charts`, then one line draws a chart straight from a pandas DataFrame, in a notebook or saved as an SVG. The Python output is tested byte for byte against the browser version in CI, npm and PyPI always ship the same version, and releases publish themselves from a Git tag with npm provenance. [Live Studio](https://shazmoghaddam.github.io/bezel-charts/site/) · [npm](https://www.npmjs.com/package/bezel-charts) · [PyPI](https://pypi.org/project/bezel-charts/) · [How I built it](https://dev.to/shazmoghaddam/charts-that-look-finished-the-moment-you-add-them-54jd)
 
-`JavaScript` `Web Components` `SVG` `Python` `pandas` `PyPI`
+`JavaScript` `Web Components` `SVG` `Python` `pandas` `npm` `PyPI`
 
 **[Bezel](https://github.com/ShazMoghaddam/bezel):** open-source clock, calendar and weather tiles, inspired by Apple's StandBy widgets. Five zero-dependency web components drawn in vectors, so they look the same at 120 px or across a 4K screen, with a Studio to design a tile and share it as a link, automatic dark mode, live weather from Open-Meteo and `.ics` calendar feeds. About 25 KB gzipped. [Live Studio](https://shazmoghaddam.github.io/bezel/site/) · [How I built it](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
 
@@ -136,7 +146,7 @@ Reflections on becoming, connection, and the things that stay with you.
 
 ## What I work with
 
-`Python` `pandas` `NumPy` `Matplotlib` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Streamlit` `Bezel Charts` `Pydantic` `JavaScript` `TypeScript` `React` `Kotlin` `Flutter` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Render` `Railway`
+`Python` `pandas` `NumPy` `Matplotlib` `Jupyter` `scikit-learn` `spaCy` `SQL` `PostgreSQL` `SQLite` `SQLAlchemy` `Alembic` `FastAPI` `Flask` `Plotly Dash` `Next.js` `Streamlit` `Bezel Charts` `Pydantic` `JavaScript` `TypeScript` `React` `Kotlin` `Flutter` `Docker` `Git` `pytest` `GitHub Actions` `Playwright` `Claude API` `Google Cloud Run` `Vercel` `Render` `Railway`
 
 ---
 
@@ -168,4 +178,7 @@ I also design and sell digital products, including generative artwork like KNOK 
 
 Open to full-time, contract and freelance work. If you're building something with data or LLMs, I'd like to hear about it.
 
-<sub>Shaz Moghaddam · London · [shazmoghaddam.github.io](https://shazmoghaddam.github.io)</sub>
+---
+
+Created by **Shaz Moghaddam** · London\
+[Website](https://shazmoghaddam.github.io/) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/)
