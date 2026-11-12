@@ -84,6 +84,10 @@ The same sixteen charts are a Python package: `pip install bezel-charts`, then o
 
 `JavaScript` `Web Components` `SVG` `Python` `pandas` `npm` `PyPI`
 
+**[Hunchy](https://github.com/ShazMoghaddam/hunchy):** a free quiz for any get-together. 1,200+ questions in 18 subjects, and every answer shows a short fact and its source: country and science facts are only used where two independent datasets agree, maths is worked out by code, and anything that can change says when it was last checked. Higher or lower, yes or no, or pick one, with a daily ten that's the same for everyone, three lives, and Hunch-off for up to six players on one phone, plus 100 original jokes between rounds. It works offline as an installable web app and updates itself, with dark and light looks, keyboard play and screen reader support, and no accounts or tracking. 51 tests check every question, answer and joke on each pull request. [Play it](https://shazmoghaddam.github.io/hunchy/)
+
+`JavaScript` `HTML` `CSS` `Service Worker` `Python` `pytest` `GitHub Actions`
+
 **[Bezel](https://github.com/ShazMoghaddam/bezel):** open-source clock, calendar and weather tiles, inspired by Apple's StandBy widgets. Five zero-dependency web components drawn in vectors, so they look the same at 120 px or across a 4K screen, with a Studio to design a tile and share it as a link, automatic dark mode, live weather from Open-Meteo and `.ics` calendar feeds. About 25 KB gzipped. [Live Studio](https://shazmoghaddam.github.io/bezel/site/) · [How I built it](https://dev.to/shazmoghaddam/apple-took-a-bite-out-of-theirs-so-i-made-the-whole-apple-bezel-open-source-clock-calendar-and-3o72)
 
 `JavaScript` `Web Components` `SVG` `Container Queries`
@@ -107,6 +111,10 @@ The same sixteen charts are a Python package: `pip install bezel-charts`, then o
 ---
 
 ## Data projects and community
+
+**[Energy & the Economy](https://github.com/ShazMoghaddam/europe-energy-economy):** a free data challenge about Europe's energy since 2010: what it costs, where it comes from, who pays and how fast it's changing, through Russia's invasion of Ukraine in 2022 and war in the Gulf in 2026. Its State of Europe's Energy report of eleven findings and 25 charts redraws itself: every week a GitHub Actions job downloads the latest Eurostat, FRED and Our World in Data figures, tests them, and opens a pull request when anything changes. At launch it showed Russia's share of the EU's imported gas falling from 41% to 11%, gas at 11.8 times its normal price in August 2022, and wind now making more of the EU's electricity than gas. Every chart is drawn with Bezel Charts. January 2027: two shocks.
+
+`Python` `pandas` `Bezel Charts` `GitHub Actions` `pytest` `Eurostat` `FRED` `Our World in Data`
 
 **[Jobs & the Economy](https://github.com/ShazMoghaddam/uk-jobs-economy):** a free UK data challenge about jobs, unemployment and pay, and the bigger sibling of House Prices. Its State of UK Jobs report of eight findings redraws itself: every week a GitHub Actions job downloads 33 ONS series and HMRC payroll data, tests it, and opens a pull request with fresh charts after each ONS release. At launch it showed long-term sickness up 620,000 since Covid, youth unemployment at 15.6%, and survey and payroll data pointing in opposite directions. Every chart is drawn with Bezel Charts. December 2026: where did the workers go?
 
@@ -172,7 +180,7 @@ Seven apps published on Google Play, all free:
 
 A set of small developer tools, each with a live demo: [Regex Decoder](https://shazmoghaddam.github.io/regex-decoder/), [Cron Decoder](https://shazmoghaddam.github.io/cron-decoder/), [Python Exceptions](https://shazmoghaddam.github.io/python-exceptions/), [HTTP Status Codes](https://shazmoghaddam.github.io/http-status-codes/), [HTTP Headers](https://shazmoghaddam.github.io/http-headers/) and [Tech Acronyms](https://shazmoghaddam.github.io/tech-acronyms/).
 
-I also design and sell digital products, including generative artwork like KNOK Matrix and Typography Digits, on [Gumroad](https://shazmogh.gumroad.com/), Envato and Lemon Squeezy: 25 digital products and 50+ projects in all. Everything is on [my website](https://shazmoghaddam.github.io).
+I also design and sell digital products, including generative artwork like KNOK Matrix and Typography Digits, on [Gumroad](https://shazmogh.gumroad.com/), Envato and Lemon Squeezy: 26 digital products and 50+ projects in all. Everything is on [my website](https://shazmoghaddam.github.io).
 
 ---
 
