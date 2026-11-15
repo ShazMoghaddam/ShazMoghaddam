@@ -4,7 +4,7 @@
 
 Python and AI engineer based in London. I build data platforms that take messy, real-world input and turn it into something deployed, tested and usable: LLM-powered document extraction, ML anomaly detection, and analytics dashboards on FastAPI and Plotly Dash.
 
-Trained through Imperial College London's Data Science Bootcamp (96% average). I also publish open-source tools, including [Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts), a charting library for the web and Python, on npm and PyPI. Looking for ML/AI engineering and data roles in London or remote.
+Trained through Imperial College London's Data Science Bootcamp (96% average). I also publish open-source tools, including [Bezel Charts](https://github.com/ShazMoghaddam/bezel-charts), a charting library for the web and Python on npm and PyPI, and [Orbs](https://github.com/ShazMoghaddam/orbs), morphing dot animations for the web on npm. Looking for ML/AI engineering and data roles in London or remote.
 
 [Portfolio](https://shazmoghaddam.github.io) · [LinkedIn](https://www.linkedin.com/in/shazmoghaddam/) · [DEV](https://dev.to/shazmoghaddam) · [Medium](https://medium.com/@shaz.moghaddam) · [Reddit](https://www.reddit.com/user/Aggravating_Pie2373/) · shaz.moghaddam@gmail.com
 
@@ -100,9 +100,9 @@ The same sixteen charts are a Python package: `pip install bezel-charts`, then o
 
 `Python` `Jinja2` `Playwright` `GitHub Actions`
 
-**[Orbs](https://github.com/ShazMoghaddam/orbs):** ten morphing dot-formation animations for the web, from a Fibonacci sphere to a rolling torus, and any shape can morph into any other. One file, about 5 KB gzipped, no dependencies, themed with plain CSS. [Live demo](https://shazmoghaddam.github.io/orbs/) · [How I built it](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h)
+**[Orbs](https://github.com/ShazMoghaddam/orbs):** morphing dot animations for the web. [![npm](https://img.shields.io/npm/v/@shazmoghaddam/orbs?label=npm&color=CB3837)](https://www.npmjs.com/package/@shazmoghaddam/orbs) Twenty shapes, from a Fibonacci sphere to a vortex, an iris and a figure of eight, and any shape morphs into any other. Draw them as dots or as glowing lines, make them dance to music or a microphone, and drive them with named states such as thinking, success and error for loaders and AI assistants. Design an orb in the Studio and export it as MP4, GIF or PNG, or open it full screen as a desk display. `npm i @shazmoghaddam/orbs`, with TypeScript types and React and Vue examples. One file, about 11 KB gzipped, no dependencies, with support for reduced motion and keyboard use. [Live Studio](https://shazmoghaddam.github.io/orbs/) · [npm](https://www.npmjs.com/package/@shazmoghaddam/orbs) · [How I built it](https://dev.to/shazmoghaddam/how-i-built-morphing-dot-animations-with-plain-canvas-no-libraries-5-kb-127h)
 
-`JavaScript` `Canvas`
+`JavaScript` `Canvas` `TypeScript` `Web Audio` `npm`
 
 **[Strata Symbol Kit](https://github.com/ShazMoghaddam/strata-symbols):** 183 layered-line symbols, letters and numbers for designers. Adjust the line count, angle and colour in the browser, then export clean SVG, PNG or a full sprite. [Live editor](https://shazmoghaddam.github.io/strata-symbols/)
 
